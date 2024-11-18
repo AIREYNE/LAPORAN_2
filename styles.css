@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    cursor: pointer;
+    color: #007bff;
+}
+
+p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.hidden {
+    display: none;
+}
+
+.tidy-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.messy-mode {
+    background-color: #f00;
+    color: #0f0;
+    font-size: 18px;
+    font-family: Comic Sans MS, cursive;
+}
+
+.mode-toggle {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.mode-toggle button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.mode-toggle button.tidy {
+    background-color: #007bff;
+    color: white;
+}
+
+.mode-toggle button.messy {
+    background-color: #f00;
+    color: white;
+}
